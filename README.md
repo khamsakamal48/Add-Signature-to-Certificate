@@ -3,6 +3,7 @@
 This program is meant to add signatures on top of several certificates at once
 
 ### Pre-requisites
+- A Ubuntu/Linux machine with Python3 installed
 - Install the below packages
 
 ```bash
