@@ -22,7 +22,7 @@ def move_new_certificates():
         os.rename(each_new_certificate, f"Signed {each_certificate}")
         
 def housekeeping():
-    old_certificates = glob.glob("Signed Certificates/*")
+    old_certificates = glob.glob("Signed Certificates/*.png")
     
     for every_certiifcate in old_certificates:
         try:
@@ -58,7 +58,7 @@ try:
             
             y = int(input("Enter the Y co-ordinates: "))
             
-            certificates = glob.glob("Certificates/*")
+            certificates = glob.glob("Certificates/*.png")
             for each_certificate in certificates:
                 
                 # Add signature on certificate

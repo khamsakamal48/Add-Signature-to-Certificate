@@ -13,6 +13,7 @@ pip3 install pillow
 ```
 
 - Store the certificates which are to be attested in the '**Certificates**' folder
+  - Make sure that the certificate images are in .png format
 - Store the signature as **signature.png**
   - Make sure that the signature.png is resized beforehand
   - Make sure that the background of signature.png is transparent beforehand
